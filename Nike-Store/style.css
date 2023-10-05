@@ -1,0 +1,156 @@
+body>*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    /* display: flex; */
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.m-container{
+    max-width: 1155px;
+    margin: 0 auto;
+}
+header{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* header .logo{
+    width: 125px;
+    height: 60px;
+} */
+header img{
+    width: 115px;
+    height: 55px;
+    cursor: pointer;
+}
+
+header button{
+    width: 78px;
+    height: 49px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    background-color: hsl(2.84deg 76.24% 52.28%);
+    border: none;
+    place-self: end;
+    padding: 0;
+}
+
+header button:hover{
+    cursor: pointer;
+    /* color: black; */
+    font-weight: 600;
+    font-size: 14px;
+    background-color: hsl(2.84deg 30.12% 46.23%);
+}
+ 
+header .sign-up{
+    place-self: end;
+}
+header ul{
+    display: flex;
+    padding: unset;
+    column-gap: 25px;
+}
+
+header ul li{
+    display: flex;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+header ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero-section{
+    display: flex;
+    /* background-color: rgba(0, 255, 255, 0.138); */
+    /* height: 620px; */
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.hero-section>*{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content h1{
+    font-size: 88px;
+    font-weight: 700;
+    margin: unset;
+}
+.content p{
+    width: 359px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 4px;
+    margin: 11px 0px 25px 0px;
+    color: #0000008c;
+}
+.buttons .btn1{
+    padding: 6px 10px;
+    font-size: 21px;
+    background-color: hsl(2.84deg 76.24% 52.28%);
+    border: 0.5px solid hsl(2.84deg 76.24% 52.28%);
+    color: white;
+    margin-right: 30px;
+}
+.buttons .btn1:hover{
+    border: 0.5px solid hsl(2.84deg 30.12% 46.23%);
+    background-color: hsl(2.84deg 30.12% 46.23%);
+    cursor: pointer;
+}
+
+.buttons .btn2{
+    padding: 6px 10px;
+    font-size: 21px;
+    background-color: white;
+    color: #000000a6;
+    border: 0.5px solid #000000a6;
+}
+.buttons .btn2:hover{
+    cursor: pointer;
+    background-color: hsl(2.84deg 5.12% 45.84% / 80%);
+    color: white;
+    border: none;
+}
+.content .other-web{
+    margin: 28px 0px 6px 0px;
+}
+.web-logos img{
+    margin-right: 9px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.shoe{
+    display: flex;
+    width: 50%;
+    transform: rotate(347deg);
+    /* cursor: pointer; */
+}
+.shoe img{
+    width: 463px;
+    height: 347px;
+    margin: 50px 0px 0px 50px;
+}
