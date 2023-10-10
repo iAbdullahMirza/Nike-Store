@@ -268,7 +268,7 @@ footer .top .left  ul{
     display: flex;
     flex-direction: column;
     width: 241px;
-    row-gap: 10px;
+    row-gap: 15px;
 }
 footer .top .left ul .bold{
     list-style-type: none;
